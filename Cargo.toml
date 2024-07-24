@@ -1,0 +1,9 @@
+[package]
+name = "serde_interview"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { version = "*", features = ["backtrace"] }
+serde_json = "*"
+serde = { version = "*", features = ["derive"] }
